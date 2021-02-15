@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+header {
+  height: 15%;
+  line-height: 5em;
+}
+
+@media (max-width: 767px) {
+  #left_menu {
+    display: none;
+  }
+}
+
+#left_menu {
+  height: 100%;
+  background: orange;
+}
+
+.row {
+  text-align: center;
+}
+
+.red {
+  background-color: rgb(227, 115, 115);
+}
+
+.blue {
+  background-color: rgb(52, 170, 205);
+}
+
+.content {
+  line-height: 5em;
+}
+
+#gray {
+  background-color: rgb(228, 228, 228, 0.5);
+}
+
+#top_menu {
+  background-color: rgb(203, 154, 144);
+}
+
+header,
+footer {
+  background-color: rgb(91, 58, 60);
+  color: white;
+}
